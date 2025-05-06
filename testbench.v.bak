@@ -1,0 +1,27 @@
+module testbench;
+	reg [7:0] a, b, c, d;
+	wire [7:0]y;
+	reg CLK;
+	
+	top_level DUT (a,b,c,d,CLK,y);
+	 
+	initial
+		begin	
+			CLK=1;
+			a=8'b0000_0001;
+			b=8'b0000_0001;
+			c=8'b0000_0001;
+			d=8'b0000_0001;
+			#10; 
+			CLK=0;
+			a=8'b0000_0001;
+			b=8'b0000_0001;
+			c=8'b0000_0001;
+			d=8'b0000_0001;        
+			#10;    
+		end
+	initial $monitor("a=%b b=%b c=%b d=%b y=%b",a, b, c, d, y);
+	
+	initial $dumpvars;
+	
+endmodule 

@@ -1,0 +1,54 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/class/courssefiles/DDaMPC/Quartus projects/yadro_tryy/simulation/modelsim
+vtest_bench
+Z1 !s110 1746560589
+!i10b 1
+!s100 dnJi<h>m21=e0aIcni2Ii0
+IzMLQJ:FzeGj[QeAHAYi[[3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1746560106
+8C:/class/courssefiles/DDaMPC/Quartus projects/yadro_tryy/testbench.v
+FC:/class/courssefiles/DDaMPC/Quartus projects/yadro_tryy/testbench.v
+L0 3
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1746560588.000000
+!s107 C:/class/courssefiles/DDaMPC/Quartus projects/yadro_tryy/testbench.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/class/courssefiles/DDaMPC/Quartus projects/yadro_tryy|C:/class/courssefiles/DDaMPC/Quartus projects/yadro_tryy/testbench.v|
+!i113 1
+Z4 o-vlog01compat -work work
+Z5 !s92 -vlog01compat -work work {+incdir+C:/class/courssefiles/DDaMPC/Quartus projects/yadro_tryy}
+Z6 tCvgOpt 0
+vtest_task
+R1
+!i10b 1
+!s100 7lc75RCUCDjol]K=EL6kd3
+IK_EAlL7SKiZCMk]NLV^5i3
+R2
+R0
+w1746556566
+8C:/class/courssefiles/DDaMPC/Quartus projects/yadro_tryy/top_level.v
+FC:/class/courssefiles/DDaMPC/Quartus projects/yadro_tryy/top_level.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1746560589.000000
+!s107 C:/class/courssefiles/DDaMPC/Quartus projects/yadro_tryy/top_level.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/class/courssefiles/DDaMPC/Quartus projects/yadro_tryy|C:/class/courssefiles/DDaMPC/Quartus projects/yadro_tryy/top_level.v|
+!i113 1
+R4
+R5
+R6

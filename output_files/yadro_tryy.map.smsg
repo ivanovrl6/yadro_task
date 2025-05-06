@@ -1,0 +1,1 @@
+Warning (10268): Verilog HDL information at top_level.v(9): always construct contains both blocking and non-blocking assignments File: C:/class/courssefiles/DDaMPC/Quartus projects/yadro_tryy/top_level.v Line: 9

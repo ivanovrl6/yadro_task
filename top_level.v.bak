@@ -1,0 +1,13 @@
+module top_level #(parameter N=8) 
+						(input [N-1:0] a,b,c,d,
+						 input  CLK,
+						 output [2*N-1:0] y);
+						 
+	 reg [N-1:0] diff_ab, c_3,summ,d_4,
+		  mult,diff_fin,res;
+			subtractor subtr(a,b,diff_ab);
+			shiffter_M shif_M (c, 1, c_3);
+			adder add ( c,c_3, summ);
+			adder add_next ( 1,c_3, summ);
+			shiffter_M shif_M_tw (d, 2, d_4);
+endmodule 
